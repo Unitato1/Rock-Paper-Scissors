@@ -4,9 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="main.js"></script>
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <h1>Rock-Paper-Scissors</h1>
+    <h1 id="callToAction">Let's play a round</h1>
+    <div id="options">
+      <button value="rock">rock</button>
+      <button value="paper">paper</button>
+      <button value="scissors">scissors</button>
+    </div>
+    <h1 id="result"></h1>
+    <h2 id="scores"></h2>
+    <button id="play-again" style="display: none">PLAY AGAIN</button>
   </body>
 </html>

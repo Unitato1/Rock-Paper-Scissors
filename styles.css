@@ -1,0 +1,17 @@
+:root,
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.1rem;
+  background-color: #1b4242;
+  color: #fcf5ed;
+  height: 100%;
+}
+button {
+  padding: 20px;
+  margin: 5px;
+  border: 1px whitesmoke solid;
+  background-color: #040d12;
+  color: #fcf5ed;
+}
