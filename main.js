@@ -25,10 +25,9 @@ function round(event) {
   ++numberOfRounds;
   playAgain.style.display = "none";
   let currRound = decision(event.target.value);
-  if (currRound.charAt(0) === "T") {
-  } else if (currRound.charAt(4) === "w") {
+  if (currRound.charAt(4) === "w") {
     playerPoints += 1;
-  } else {
+  } else if (currRound.charAt(0) !== "T") {
     computerPoints += 1;
   }
   result.textContent = `${currRound}.`;
